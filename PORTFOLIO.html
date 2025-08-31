@@ -1,0 +1,204 @@
+import <html></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add meta description for SEO -->
+    <!-- Suggestion: <meta name="description" content="Portfolio of Thummarapally Sravan, an AI/ML Developer and Software Engineer specializing in Python, web development, and data management."> -->
+    <title>THUMMARAPALLY SRAVAN | AI/ML Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Consider adding a favicon -->
+    <!-- Suggestion: <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+    <style>
+        /* Global Styles */
+        :root {
+            /* Consider adding more accessible color contrast ratios */
+            /* Suggestion: Use a contrast checker to ensure --primary-color and --text-color meet WCAG standards */
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+            --text-color: #333;
+            --text-light: #7f8c8d;
+            --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        /* Consider extracting CSS into a separate file for better maintainability */
+        /* Suggestion: Move styles to 'styles.css' and link it with <link rel="stylesheet" href="styles.css"> */
+
+        /* Add focus styles for accessibility */
+        /* Suggestion: Add :focus styles for buttons and links */
+        /* Example: 
+        .btn:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+        */
+    </style>
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-navbar">
+        <!-- Add ARIA landmark for accessibility -->
+        <!-- Suggestion: Add role="navigation" to nav element -->
+        <div class="container">
+            <div class="top-nav-container">
+                <div class="top-nav-links">
+                    <!-- Add ARIA labels for better screen reader support -->
+                    <!-- Suggestion: Add aria-label to each link, e.g., aria-label="Navigate to Home section" -->
+                    <a href="#hero" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#education">Education</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#declaration">Declaration</a>
+                    <!-- Add a mobile-friendly hamburger menu for smaller screens -->
+                    <!-- Suggestion: Implement a hamburger menu toggle with JavaScript for mobile devices -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+        <!-- Add ARIA landmark for main content -->
+        <!-- Suggestion: Add role="main" to section element -->
+        <div class="container">
+            <div class="hero-content">
+                <!-- Use a real profile photo instead of placeholder -->
+                <!-- Suggestion: Replace src="https://via.placeholder.com/200" with actual image path -->
+                <img src="https://via.placeholder.com/200" alt="Profile Photo" class="profile-photo">
+                <!-- Update alt text for better accessibility -->
+                <!-- Suggestion: Change alt to "Thummarapally Sravan profile photo" -->
+                <div class="hero-btns">
+                    <!-- Fix broken link: #projects section doesn't exist -->
+                    <!-- Suggestion: Either create a projects section or update href to an existing section like #experience -->
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <!-- Consider adding a downloadable CV link here -->
+        <!-- Suggestion: Add a button linking to a PDF version of the CV -->
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <!-- Fix timeline date inconsistency: July 2025 - August 2025 is in the future -->
+        <!-- Suggestion: Verify and update the date for the Content Writer role at Marpu Foundation -->
+        <!-- Example: Change to "July 2024 - August 2024" if it was a typo -->
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <!-- Consider adding more details about relevant coursework or projects -->
+        <!-- Suggestion: Add a list of key courses or projects under each education entry -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <!-- Consider adding a visual representation of skill proficiency -->
+        <!-- Suggestion: Use progress bars or a chart to show skill levels -->
+        <!-- Example: 
+        <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Python: <div class="progress-bar" style="width: 90%;"></div></li>
+            </ul>
+        </div>
+        */
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <!-- Add links to verify certifications if available -->
+        <!-- Suggestion: Include URLs to certification badges or profiles (e.g., HackerRank, Hedera) -->
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <!-- Fix broken download link -->
+        <!-- Suggestion: Update href="#" to the actual resume PDF file path -->
+        <!-- Example: href="assets/resume.pdf" -->
+        <div class="resume-container">
+            <a href="#" class="btn" download>
+                <i class="fas fa-download"></i> Download Resume (PDF)
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <!-- Add form submission functionality -->
+        <!-- Suggestion: Implement form submission with JavaScript (e.g., using EmailJS or a backend API) -->
+        <!-- Add form validation for better UX -->
+        <!-- Suggestion: Add client-side validation for name, email, and message fields -->
+        <div class="contact-container">
+            <form class="contact-form">
+                <!-- Add labels for accessibility -->
+                <!-- Suggestion: Wrap inputs in <label> elements or add for/id attributes -->
+                <!-- Example: 
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input id="name" type="text" placeholder="Your Name" required>
+                </div>
+                -->
+            </form>
+        </div>
+    </section>
+
+    <!-- Declaration Section -->
+    <section id="declaration" class="section">
+        <!-- Consider adding a date to the declaration -->
+        <!-- Suggestion: Add "Date: August 2025" below the signature -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Fix broken social media links -->
+        <!-- Suggestion: Update href="#" to actual social media profile URLs -->
+        <!-- Example: <a href="https://linkedin.com/in/thummarapally-sravan-4a7353296"><i class="fab fa-linkedin-in"></i></a> -->
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Consider extracting JavaScript to a separate file
+        // Suggestion: Move script to 'scripts.js' and link it with <script src="scripts.js"></script>
+
+        // Fix scroll event listener syntax error
+        // Issue: Template literal syntax in querySelector is incorrect
+        // Current: document.querySelector(.top-nav-links a[href="#${id}"])
+        // Suggestion: Fix to:
+        /*
+        const activeLink = document.querySelector(.top-nav-links a[href="#${id}"]);
+        */
+
+        // Add form submission handling
+        // Suggestion: Add an event listener for the contact form
+        /*
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Add form submission logic (e.g., EmailJS or fetch to backend)
+        });
+        */
+    </script>
+</body>
+</html>
